@@ -322,18 +322,32 @@ img {
   background-color: #CEA380;
   margin: auto; }
 
-.owl-nav {
+.owl-prev {
   width: 37px;
   height: 140px;
   background-image: url(../img/s_arrow.png);
-  top: 20px;
+  top: 120px;
+  position: absolute;
+  opacity: .6;
+   }
+ .owl-next {
+ 	right: 0;
+ }  
+  .owl-nav:hover {
+    opacity: 1; }
+.owl-prev {
+	/*display: none;*/
+}
+.owl-next {
+	 width: 37px;
+  height: 140px;
+  background-image: url(../img/s_arrow.png);
+  top: 120px;
   position: absolute;
   opacity: .6;
   right: 0;
-  background-position: top right; }
-  .owl-nav:hover {
-    opacity: 1; }
-
+  background-position: top right;
+}
 .owl-dots {
   width: 100%;
   margin-top: 20px;
